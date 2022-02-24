@@ -1,0 +1,57 @@
+body{
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.container{
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container h1{
+  color: #C0392B;
+  font-size: 2.5rem;
+}
+.container nav{
+  margin-right:50px ;
+  display: flex;
+  justify-content:center;
+  text-align: center;
+}
+
+.container nav ul li{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  list-style-type: none;
+}
+
+ul{
+  list-style: none;
+}
+
+h2{
+  color: blue;
+}
+
+.card{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: auto;
+  width: 300px;
+}
+
+.card .img img{
+  border-radius: 5px;
+  width: 300px;
+}
+
+.card .text{
+  color: #333;
+}
+
+form{
+  margin-top: 30px;
+}
